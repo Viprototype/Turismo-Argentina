@@ -1,0 +1,364 @@
+body {
+    background-size: contain;
+    position: relative;
+    width: 100%;
+    height: auto;
+    background-image: linear-gradient(to bottom, #051937, #002762, #00358f, #0042bd, #124ceb);
+    background-attachment: fixed;
+}
+
+.logo-1 {
+    margin-left: 1rem;
+    padding: 0;
+    color: #d86f00;
+    background-color: hsl(216, 90%, 72%);
+    width: 60px;
+    height: 60px;
+    border-radius: 100%;
+}
+
+.logo-1:hover {
+    animation-name: pulse;
+    animation-duration: 1s;
+    animation-fill-mode: both;
+}
+
+@keyframes pulse {
+    0% {
+        transform: scale3d(1, 1, 1);
+    }
+    50% {
+        transform: scale3d(1.05, 1.05, 1.05);
+    }
+    100% {
+        transform: scale3d(1, 1, 1);
+    }
+}
+
+button.btn-idioma {
+    background-color: transparent;
+    color: white;
+    font-family: 'Tilt Neon', cursive;
+    border-radius: 20%;
+}
+
+a.nav-link {
+    font-family: 'Tilt Neon', cursive;
+    color: rgb(255, 255, 255);
+    font-size: 30px;
+}
+
+a.nav-link:hover {
+    color: #d86f00;
+}
+
+button.navbar-toggler {
+    background-color: #d86f00;
+}
+
+div.carousel {
+    background-color: #a76c2d;
+    flex-direction: column;
+    align-content: center;
+    height: 490px;
+    width: 100%;
+    margin-top: 1rem;
+    padding: 0;
+    border: 8px solid #051937;
+    border-radius: 10px;
+    overflow: hidden;
+    background-image: linear-gradient(to right, #2c1904, #ffffff, #2c1904);
+}
+
+div.carousel-inner {
+    border-radius: 10px;
+  }
+
+div.carousel-item {
+    border-radius: 10px;
+  }
+
+div.descripcion {
+    background-color: rgba(0, 0, 0, 0.7);
+    border-radius: 10px;
+}
+
+img.lugares {
+    border-radius: 10px;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+}
+
+h5.lugar {
+    margin: 0;
+    padding: 0;
+}
+
+p.lugar {
+    margin: 0;
+    padding: 1rem;
+}
+
+h2.excursiones {
+    color: white;
+    margin-top: 3rem;
+    padding-top: 3rem;
+    font-size: 55px;
+    font-family: 'Tilt Neon', cursive;
+}
+
+#row1 {
+    margin-inline: 1rem;
+    padding-inline: 1rem;
+}
+
+p.excursiones {
+    color: white;
+    margin-top: 1rem;
+    margin-inline: 2rem;
+    padding-inline: 1rem;
+    padding-top: 0;
+    font-size: 20px;
+    font-family: 'Tilt Neon', cursive;
+}
+
+#contacto {
+    margin-top: 5rem;
+    padding-top: 5rem;
+}
+
+h2.contacto {
+    font-family: 'Tilt Neon', cursive;
+    margin-top: 2rem;
+    padding-top: 2rem;
+    text-align: center;
+    font-size: 54px;
+    color: white;
+}
+
+p.contacto {
+    display: flex;
+    justify-content: center;
+    padding: 1rem;
+    padding-top: 2rem;
+    font-family: 'Tilt Neon', cursive;
+    font-size: 22px;
+    text-align: center;
+    color: white;
+}
+
+div.contacto {
+    justify-content: center;
+}
+
+img.whatsapp {
+    width: 80px;
+    filter: drop-shadow(0 1px 4px #b66f03);
+ }
+
+a.telefono {
+    color: white;
+    margin-left: 1rem;
+    padding-top: 1rem;
+    padding-left: 1rem;
+    font-size: 30px;
+}
+
+a.telefono:hover {
+    color: #d86f00;
+}
+
+#scrollBtn {
+    background-color: #051937;
+    display: block;
+    position: fixed;
+    width: 60px;
+    height: 60px;
+    bottom: 20px;
+    right: 20px;
+    border-radius: 100%;
+    opacity: 1;
+    transition: opacity 0.3s ease-in-out;
+  }
+  
+  #scrollBtn.hide {
+    opacity: 0;
+  }
+
+i.flecha{
+ width: 45px;
+ height: 45px;   
+}
+
+footer {
+    margin-top: 15rem;
+    justify-content: center;
+}
+
+p.footer {
+    color: white;
+    font-size: 15px;
+}
+
+@media (max-width: 480px) { 
+
+    /* Estilos generales */
+
+body {
+    background-size: contain;
+    position: relative;
+    width: 100%;
+    height: auto;
+    background-image: linear-gradient(to bottom, #051937, #002762, #00358f, #0042bd, #124ceb);
+    background-attachment: fixed;
+}
+
+.logo-1 {
+    margin-left: 1rem;
+    padding: 0;
+    color: #d86f00;
+    background-color: hsl(216, 90%, 72%);
+    width: 60px;
+    height: 60px;
+    border-radius: 100%;
+}
+
+.logo-1:hover {
+    animation-name: pulse;
+    animation-duration: 1s;
+    animation-fill-mode: both;
+}
+
+@keyframes pulse {
+    0% {
+        transform: scale3d(1, 1, 1);
+    }
+    50% {
+        transform: scale3d(1.05, 1.05, 1.05);
+    }
+    100% {
+        transform: scale3d(1, 1, 1);
+    }
+}
+
+button.btn-idioma {
+    background-color: transparent;
+    color: white;
+    font-family: 'Tilt Neon', cursive;
+    border-radius: 20%;
+}
+
+a.nav-link {
+    font-family: 'Tilt Neon', cursive;
+    color: rgb(255, 255, 255);
+    font-size: 30px;
+}
+
+a.nav-link:hover {
+    color: #d86f00;
+}
+
+button.navbar-toggler {
+    background-color: #d86f00;
+}
+
+div.carousel {
+    background-color: #d86f00;
+    justify-content: center;
+    height: auto;
+    margin-top: 4rem;
+    padding: 0;
+    border: 8px solid #051937;
+    border-radius: 10px;
+    overflow: hidden;
+}
+
+div.carousel-inner {
+    border-radius: 10px;
+}
+
+div.carousel-item {
+    border-radius: 10px;
+}
+
+img.lugares {
+    height: 100%;
+}
+
+div.descripcion {
+    background-color: rgba(0, 0, 0, 0.7);
+    border-radius: 5%;
+}
+
+p.lugar {
+    display: none;
+}
+
+h5.lugar {
+    font-size: 15px;
+    margin: 0;
+    padding: 0;
+}
+
+p.lugar {
+    margin: 0;
+    padding: 1rem;
+}
+
+h2.excursiones {
+    color: white;
+    margin-top: 1rem;
+    margin-bottom: 2rem;
+    padding-top: 4rem;
+    padding-bottom: 0;
+    font-size: 55px;
+    font-family: 'Tilt Neon', cursive;
+}
+
+#row1 {
+    margin-inline: 1rem;
+    padding-inline: 1rem;
+}
+
+p.excursiones {
+    color: white;
+    margin-top: 2rem;
+    margin-bottom: 1rem;
+    margin-inline: 2rem;
+    padding-inline: 1rem;
+    padding-top: 0;
+    padding-bottom: 1rem;
+    font-size: 25px;
+    font-family: 'Tilt Neon', cursive;
+}
+
+#contacto {
+    margin-top: 3rem;
+    padding-top: 3rem;
+}
+
+h2.contacto {
+    font-family: 'Tilt Neon', cursive;
+    margin-top: 2rem;
+    padding-top: 2rem;
+    text-align: center;
+    font-size: 54px;
+    color: white;
+}
+
+p.contacto {
+    display: flex;
+    justify-content: center;
+    padding: 1rem;
+    padding-top: 2rem;
+    font-family: 'Tilt Neon', cursive;
+}
+
+@media (min-width: 577px) and (max-width: 992px) { 
+    
+    p.lugar{
+        display: none;
+    }
+}
+}
