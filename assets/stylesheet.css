@@ -14,7 +14,7 @@ body {
     background-color: hsl(216, 90%, 72%);
     width: 60px;
     height: 60px;
-    border: solid 5px orange;
+    border: solid 2px orange;
     border-radius: 100%;
 }
 
@@ -40,8 +40,8 @@ button.btn-idioma {
     background-color: transparent;
     color: white;
     font-family: 'Tilt Neon', cursive;
-    border-radius: 25% 0 25% 0;
-    border: solid 5px orange;
+    border-radius: 25px 0 25px 0;
+    border: solid 2px #d86f00;
 }
 
 a.nav-link {
@@ -365,4 +365,5 @@ p.contacto {
 }
 
 }
+
 
