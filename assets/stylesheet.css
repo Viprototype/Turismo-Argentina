@@ -41,7 +41,7 @@ button.btn-idioma {
     color: white;
     font-family: 'Tilt Neon', cursive;
     border-radius: 25px 0 25px 0;
-    border: solid 2px #d86f00;
+    border: solid 2px , color:#d86f00;
 }
 
 a.nav-link {
@@ -365,5 +365,6 @@ p.contacto {
 }
 
 }
+
 
 
