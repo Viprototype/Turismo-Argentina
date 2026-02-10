@@ -14,6 +14,7 @@ body {
     background-color: hsl(216, 90%, 72%);
     width: 60px;
     height: 60px;
+    border: solid 1px black;
     border-radius: 100%;
 }
 
@@ -361,4 +362,5 @@ p.contacto {
         display: none;
     }
 }
+
 }
