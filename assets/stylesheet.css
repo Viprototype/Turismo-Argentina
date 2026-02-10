@@ -62,7 +62,7 @@ div.carousel {
     background-color: #a76c2d;
     flex-direction: column;
     align-content: center;
-    height: 490px;
+    height: 30%;
     width: 100%;
     margin-top: 1rem;
     padding: 0;
@@ -365,6 +365,7 @@ p.contacto {
 }
 
 }
+
 
 
 
