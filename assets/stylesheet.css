@@ -61,6 +61,7 @@ button.navbar-toggler {
 div.carousel {
     background-color: #a76c2d;
     flex-direction: column;
+    justify-content: center;
     align-content: center;
     height: 30%;
     width: 100%;
@@ -90,6 +91,7 @@ img.lugares {
     justify-content: center;
     align-items: center;
     width: 100%;
+    height: auto;
 }
 
 h5.lugar {
@@ -365,6 +367,7 @@ p.contacto {
 }
 
 }
+
 
 
 
