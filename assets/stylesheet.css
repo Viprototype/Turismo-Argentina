@@ -37,6 +37,7 @@ body {
 }
 
 button.btn-idioma {
+    margin-right: 1rem;
     background-color: transparent;
     color: white;
     font-family: 'Tilt Neon', cursive;
@@ -369,6 +370,7 @@ p.contacto {
 }
 
 }
+
 
 
 
