@@ -91,7 +91,7 @@ img.lugares {
     justify-content: center;
     align-items: center;
     width: 100%;
-    height: auto;
+    height: 100%;
 }
 
 h5.lugar {
@@ -367,6 +367,7 @@ p.contacto {
 }
 
 }
+
 
 
 
