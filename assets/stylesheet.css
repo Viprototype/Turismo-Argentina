@@ -8,7 +8,6 @@ body {
 }
 
 .logo-1 {
-    margin-left: 1rem;
     padding: 0;
     color: #d86f00;
     background-color: hsl(216, 90%, 72%);
@@ -37,7 +36,6 @@ body {
 }
 
 button.btn-idioma {
-    margin-right: 1rem;
     background-color: transparent;
     color: white;
     font-family: 'Tilt Neon', cursive;
@@ -370,6 +368,7 @@ p.contacto {
 }
 
 }
+
 
 
 
